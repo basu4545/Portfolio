@@ -138,7 +138,7 @@ header nav a{
 
 /* project */
 #project{
-    background-color: #cfbaba;
+    background-color: #8d3c3c;
     color: #444B57;
 }
 #project .list{
@@ -155,8 +155,9 @@ header nav a{
 #project .list .item{
     border-radius: 30px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #e3e5e9;
     position: relative;
+    color: black;
 }
 #project .list .item .index{
     background-color: #fff;
@@ -219,12 +220,12 @@ header nav a{
 }
 
 @media screen and (max-width: 991px){
-    /* ipad, tablets */
+
     #intro .avatar img{
         transform: translateX(200px);
     }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 600px){
     body{
         font-size: 10px;
     }
@@ -261,6 +262,11 @@ header nav a{
     }
     #project .list .item img{
         height: 100px;
+    }
+    #contact .list .item1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
